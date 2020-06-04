@@ -1,0 +1,14 @@
+a,b = 0,1
+while a<=50:
+    print(a,end = ' ')
+    a,b=b,a+b
+
+print(' ')
+
+
+a,b = 0,1
+for i in range(10):
+    print(a,end = ' ')
+    a,b=b,a+b
+
+
